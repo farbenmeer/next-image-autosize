@@ -1,0 +1,33 @@
+{
+  "name": "next-image-from-file",
+  "version": "0.1.0",
+  "description": "A wrapper around next/image that automatically sets width and height.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farbenmeer/next-image-from-file.git"
+  },
+  "author": "farbenmeer GmbH",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/farbenmeer/next-image-from-file/issues"
+  },
+  "homepage": "https://github.com/farbenmeer/next-image-from-file#readme",
+  "peerDependencies": {
+    "next": "^11.1.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.22",
+    "@types/react-dom": "^17.0.9",
+    "next": "^11.1.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "typescript": "^4.4.3"
+  }
+}
