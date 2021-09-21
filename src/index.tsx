@@ -4,20 +4,18 @@ import React from "react";
 export type NextImageFromFileProps = Partial<ImageProps> &
   Pick<ImageProps, "src">;
 
-function isImageProps(props: NextImageFromFileProps): props is ImageProps {
-  return typeof props.src !== "string" || !!(props.width && props.height);
-}
-
 export default function NextImageFromFile(props: NextImageFromFileProps) {
   const [image, setImage] = React.useState<null | {
     width: number;
     height: number;
   }>(null);
 
-  if (isImageProps(props)) {
+  // Fall back to regular next/image if all necessary props are given
+  if (typeof props.src !== "string" || (props.width && props.height)) {
     return <Image {...props} unoptimized />;
   }
 
+  // No width and height available? Render raw img tag first to figure them out
   if (!image)
     return (
       <img
@@ -29,6 +27,7 @@ export default function NextImageFromFile(props: NextImageFromFileProps) {
       />
     );
 
+  // Width and height have been figured out, render the next/image
   return (
     <Image
       {...props}
