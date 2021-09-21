@@ -28,7 +28,11 @@ export default function NextImageFromFile(props: NextImageFromFileProps) {
   });
 
   // Fall back to regular next/image if all necessary props are given
-  if (typeof props.src !== "string" || (props.width && props.height)) {
+  if (
+    typeof props.src !== "string" ||
+    (props.width && props.height) ||
+    props.layout === "fill"
+  ) {
     return <Image {...props} unoptimized />;
   }
 
