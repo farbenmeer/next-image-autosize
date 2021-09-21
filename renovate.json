@@ -1,0 +1,31 @@
+{
+  "extends": ["config:base"],
+  "schedule": ["before 5am every weekday"],
+  "prConcurrentLimit": 3,
+  "packageRules": [
+    {
+      "updateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true
+    },
+    {
+      "matchDepTypes": ["devDependencies"],
+      "prPriority": -1
+    },
+    {
+      "matchPackagePatterns": ["eslint", "stylelint", "prettier", "commitlint"],
+      "matchPackageNames": ["lint-staged", "husky"],
+      "groupName": "linter",
+      "schedule": ["before 6am on friday"]
+    },
+    {
+      "matchPackagePatterns": ["@types/"],
+      "matchPackageNames": [
+        "typescript",
+        "ts-node",
+        "tsconfig-paths-webpack-plugin"
+      ],
+      "groupName": "typescript",
+      "schedule": ["before 6am on monday"]
+    }
+  ]
+}
