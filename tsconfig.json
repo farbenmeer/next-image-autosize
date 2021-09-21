@@ -1,17 +1,18 @@
 {
     "compilerOptions": {
 		"outDir": "./dist/",
+		"declaration": true,
 		"strictNullChecks": true,
 		"moduleResolution": "node",
 		"module": "commonjs",
-		"jsx": "react",
+		"jsx": "react-jsx",
 		"target": "ES6",
+		"lib": ["dom", "dom.iterable", "esnext"],
 		"allowJs": true,
-		"declaration": true,
 		"allowSyntheticDefaultImports": true,
 		"esModuleInterop": true,
 		"noImplicitAny": true
 	},
-	"include": ["next-env.d.ts", "src/**/*"],
+	"include": ["next-env.d.ts", "src/**/*.ts", "src/**/*.tsx"],
 	"exclude": ["dist", "node_modules"]
 }
