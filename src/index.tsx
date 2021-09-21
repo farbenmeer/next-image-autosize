@@ -1,13 +1,20 @@
 import Image, { ImageProps } from "next/image";
 import React from "react";
 
-export default function NextImageFromFile(props: ImageProps) {
+export type NextImageFromFileProps = Partial<ImageProps> &
+  Pick<ImageProps, "src">;
+
+function isImageProps(props: NextImageFromFileProps): props is ImageProps {
+  return typeof props.src !== "string" || !!(props.width && props.height);
+}
+
+export default function NextImageFromFile(props: NextImageFromFileProps) {
   const [image, setImage] = React.useState<null | {
     width: number;
     height: number;
   }>(null);
 
-  if (typeof props.src !== "string" || (props.width && props.height)) {
+  if (isImageProps(props)) {
     return <Image {...props} unoptimized />;
   }
 
