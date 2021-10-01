@@ -1,6 +1,6 @@
 {
   "name": "@farbenmeer/next-image-autosize",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A wrapper around next/image that automatically sets width and height.",
   "main": "dist/index.js",
   "files": [
