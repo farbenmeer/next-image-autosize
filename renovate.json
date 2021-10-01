@@ -4,6 +4,10 @@
   "prConcurrentLimit": 3,
   "packageRules": [
     {
+      "matchPackagePatterns": ["*"],
+      "rangeStrategy": "replace"
+    },
+    {
       "updateTypes": ["minor", "patch", "pin", "digest"],
       "automerge": true
     },
