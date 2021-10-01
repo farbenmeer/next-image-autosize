@@ -1,6 +1,6 @@
 {
   "name": "next-image-from-file",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A wrapper around next/image that automatically sets width and height.",
   "main": "dist/index.js",
   "scripts": {
