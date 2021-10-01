@@ -3,6 +3,9 @@
   "version": "1.0.1",
   "description": "A wrapper around next/image that automatically sets width and height.",
   "main": "dist/index.js",
+  "files": [
+    "/dist"
+  ],
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
