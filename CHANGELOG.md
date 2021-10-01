@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/farbenmeer/next-image-autosize/compare/v1.0.0...v1.0.1) (2021-10-01)
+
+
+### Bug Fixes
+
+* use same notation for branch array in both ci workflow definitions ([d63344a](https://github.com/farbenmeer/next-image-autosize/commit/d63344a0a61f6f9a21dc259a49d825063a064423))
+
 # 1.0.0 (2021-10-01)
 
 
