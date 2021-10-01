@@ -1,5 +1,5 @@
 {
-  "name": "next-image-from-file",
+  "name": "@farbenmeer/next-image-autosize",
   "version": "1.0.0",
   "description": "A wrapper around next/image that automatically sets width and height.",
   "main": "dist/index.js",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/farbenmeer/next-image-from-file.git"
+    "url": "git+https://github.com/farbenmeer/next-image-autosize.git"
   },
   "author": "farbenmeer GmbH",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/farbenmeer/next-image-from-file/issues"
+    "url": "https://github.com/farbenmeer/next-image-autosize/issues"
   },
-  "homepage": "https://github.com/farbenmeer/next-image-from-file#readme",
+  "homepage": "https://github.com/farbenmeer/next-image-autosize#readme",
   "peerDependencies": {
     "next": "^11.1.2",
     "react": "^17.0.2",
