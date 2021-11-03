@@ -32,7 +32,7 @@
     "@commitlint/config-conventional": "^13.2.0",
     "@semantic-release/changelog": "^6.0.0",
     "@semantic-release/git": "^10.0.0",
-    "@types/react": "17.0.27",
+    "@types/react": "17.0.34",
     "@typescript-eslint/parser": "^4.31.2",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
