@@ -14,12 +14,12 @@ It will cause layout shift on two subsequent renders.
 ```js
 // .storybook/preview.js
 import * as NextImage from 'next/image'
-import NextImageFromFile from 'next-image-from-file'
+import NextImageAutosize from '@farbenmeer/next-image-autosize'
 
 const OriginalNextImage = NextImage.default
 
 Object.defineProperty(NextImage, 'default', {
   configurable: true,
-  value: NextImageFromFile
+  value: NextImageAutosize
 })
 ```
