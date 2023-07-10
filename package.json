@@ -33,7 +33,7 @@
     "@semantic-release/changelog": "^6.0.0",
     "@semantic-release/git": "^10.0.0",
     "@types/react": "18.0.34",
-    "@typescript-eslint/parser": "^5.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
