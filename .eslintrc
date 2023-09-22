@@ -3,10 +3,9 @@
     "eslint:recommended",
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
-    "prettier",
-    "plugin:prettier/recommended"
+    "prettier"
   ],
-  "plugins": ["react", "react-hooks", "prettier"],
+  "plugins": ["react", "react-hooks"],
   "parser": "@typescript-eslint/parser",
   "env": {
     "browser": true,

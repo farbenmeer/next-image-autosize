@@ -9,7 +9,7 @@
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint src/**/*",
+    "lint": "eslint src/**/* && prettier -c src",
     "release": "semantic-release"
   },
   "repository": {
@@ -35,10 +35,9 @@
     "@types/react": "18.2.22",
     "@typescript-eslint/parser": "^6.0.0",
     "eslint": "^8.0.0",
-    "eslint-config-prettier": "^9.0.0",
-    "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.26.0",
     "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-config-prettier": "^9.0.0",
     "husky": "^8.0.0",
     "next": "^13.0.0",
     "prettier": "^3.0.0",
