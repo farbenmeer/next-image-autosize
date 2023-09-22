@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/farbenmeer/next-image-autosize/compare/v1.0.3...v1.0.4) (2023-09-22)
+
+
+### Bug Fixes
+
+* run prettier separately from eslint ([3579696](https://github.com/farbenmeer/next-image-autosize/commit/3579696889c1ff9f81cd5306fa09bf56322da5b1))
+
 ## [1.0.3](https://github.com/farbenmeer/next-image-autosize/compare/v1.0.2...v1.0.3) (2023-09-22)
 
 
