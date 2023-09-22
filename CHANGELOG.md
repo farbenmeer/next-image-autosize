@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/farbenmeer/next-image-autosize/compare/v1.0.2...v1.0.3) (2023-09-22)
+
+
+### Bug Fixes
+
+* require alt prop for images ([26d67b6](https://github.com/farbenmeer/next-image-autosize/commit/26d67b694c2d0787ef3d565ed9dc89feb932b22d))
+
 ## [1.0.2](https://github.com/farbenmeer/next-image-autosize/compare/v1.0.1...v1.0.2) (2021-10-01)
 
 
