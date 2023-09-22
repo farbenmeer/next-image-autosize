@@ -41,7 +41,7 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "husky": "^8.0.0",
     "next": "^13.0.0",
-    "prettier": "^2.4.1",
+    "prettier": "^3.0.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "semantic-release": "^22.0.0",
