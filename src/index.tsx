@@ -2,7 +2,7 @@ import NextImage, { ImageProps } from 'next/image'
 import React from 'react'
 
 export type NextImageFromFileProps = Partial<ImageProps> &
-  Pick<ImageProps, 'src'>
+  Pick<ImageProps, 'src' | 'alt'>
 
 export default function NextImageFromFile(props: NextImageFromFileProps) {
   const [image, setImage] = React.useState<null | {
