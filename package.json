@@ -34,7 +34,7 @@
     "@semantic-release/git": "^10.0.0",
     "@types/react": "18.2.56",
     "@typescript-eslint/parser": "^6.0.0",
-    "eslint": "^8.0.0",
+    "eslint": "^9.0.0",
     "eslint-plugin-react": "^7.26.0",
     "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-config-prettier": "^9.0.0",
